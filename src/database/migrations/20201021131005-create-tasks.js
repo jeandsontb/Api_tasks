@@ -13,7 +13,6 @@ module.exports = {
       },
       check: {
         type: Sequelize.BOOLEAN,
-        defaultValue: false,
         allowNull: false,
       },
       user_id: {
